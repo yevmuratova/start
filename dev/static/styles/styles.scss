@@ -73,3 +73,16 @@ button { outline: none; }
 
 //Модули
 //@import "modules/modules";
+
+.custom-logo-link {
+    position: relative;
+    font-size: 15px;
+    color: #000;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    outline: none;
+    line-height: 1.4em;
+    ::before{
+      
+    }
+}
