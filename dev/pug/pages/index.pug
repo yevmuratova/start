@@ -2,7 +2,18 @@ extends ../layout/main
 
 block variables
     - var title = "Index page"
-
+block header 
+    container-fluid 
+        menu-sticky
+            menu-sticky_container 
+                row 
+                    col-4 
+                    col-5 
+                        a.href="#"
+                        a.href="#".custom-logo-link
+                            img(src="dev/static/images/content/logo.svg", class ="custom-logo", alt="Home")
+                    col-lg-5
+                    col-3
 block content
     p 123
     +icon('rain')
