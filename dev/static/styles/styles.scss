@@ -2,7 +2,7 @@
 @import "helpers/libs";
 @import "helpers/fonts";
 @import "helpers/mixins";
-g
+
 
 html {
   font-family: 'Open Sans', Arial, serif;
@@ -67,7 +67,7 @@ button { outline: none; }
 
 .container {
   margin: 0 auto;
-  max-width: $content;
+  //max-width: $content;
   width: 100%;
 }
 
